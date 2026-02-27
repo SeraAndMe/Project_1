@@ -1,0 +1,15 @@
+#ifndef BOARD_CONFIG_H
+#define BOARD_CONFIG_H
+
+// 板级配置
+#define BOARD_NAME "STM32F407"
+#define CPU_FREQUENCY 168000000U // 168MHz
+
+// GPIO 配置
+#define LED_PIN GPIO_PIN_13
+#define LED_PORT GPIOC
+
+#define KEY_PIN GPIO_PIN_0
+#define KEY_PORT GPIOA
+
+#endif // BOARD_CONFIG_H

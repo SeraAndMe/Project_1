@@ -1,0 +1,29 @@
+# 编译产物
+build/
+output/
+*.elf
+*.hex
+*.bin
+*.o
+*.d
+
+# 配置文件
+*.config
+*.cfg
+
+# 日志文件
+*.log
+
+# 临时文件
+*.swp
+*.swo
+*~
+
+# IDE 文件
+.vscode/
+.idea/
+*.project
+*.cproject
+
+# 第三方库（可选，根据需要调整）
+# lib/
